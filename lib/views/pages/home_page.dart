@@ -120,7 +120,8 @@ class _HomePageState extends State<HomePage> {
                       return MyButtons(
                         buttonTapped: (){
                           setState(() {
-                            equalPressed();
+                            // equalPressed();
+                            userQuestion=userAnswer;
                           });
                         },
                         buttonText: buttons[index],
